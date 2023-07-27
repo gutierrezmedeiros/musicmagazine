@@ -1,0 +1,50 @@
+@import url(/style.css/titulo.css);
+@import url(/style.css/header.css);
+@import url(/style.css/servico.css);
+@import url(/style.css/botao_servico.css);
+@import url(/style.css/tabela.css);
+@import url(/style.css/plus.css);
+@import url(/style.css/mentoria.css);
+@import url(/style.css/foot.css);
+@import url(/style.css/play_remunerado.css);
+@import url(/style.css/mentoria__whatsapp.css);
+@import url(/style.css/pagamento.css);
+@import url(/style.css/apresentacao.css);
+@import url(/style.css/distribuicao.css);
+@import url(/style.css/botao_whats.css);
+@import url(/style.css/formulario-pedido.css);
+@import url(/style.css/dica.css);
+
+:root {
+
+    --cor-primaria:black;
+    --cor-secundaria:white;
+    --cor-tercearia:green;
+    --cor-cabecalho: rgb(203, 203, 203);
+}
+
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:black;
+    color:white;
+   
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+    transition:0.3s;
+
+}
+
+a:hover{
+    opacity:0.7;
+}
+

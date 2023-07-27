@@ -1,0 +1,19 @@
+.apresentacao{
+    padding-top: 1em;
+    margin: 0.5em;
+  
+}
+.apresentacao__video {
+    padding: 1em 1em 0 1em;
+}
+
+.apresentacao__video-texto {
+    font-size: 20px;
+    text-align:center;
+   
+}
+
+@media screen and (max-width:1024px){
+    
+
+}

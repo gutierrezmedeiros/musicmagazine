@@ -1,0 +1,13 @@
+.botao__servico {
+    width:50%;
+    background-color: var(--cor-tercearia);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:1em;
+    margin: 2em 2em 2em 2em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.botao {
+    margin-top:1em;
+}

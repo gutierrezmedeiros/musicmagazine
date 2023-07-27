@@ -1,0 +1,32 @@
+.pagamento {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 2em;
+}
+.pagamento__titulo {
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.pagamento__texto {
+    font-size:10px;
+    text-align:center;
+}
+
+.section__dimdim {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.pagamento__img {
+    width: auto;
+    padding-right:1em;
+}
+
+@media screen and (max-width: 700px) {
+
+    
+
+}

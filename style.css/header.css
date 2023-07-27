@@ -1,0 +1,99 @@
+
+.logo {
+    font-size:15px;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    padding-left: 2em;
+    
+}
+
+.cabecalho__menu {
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:15vh; 
+    
+}
+
+.cabecalho__menu-lista {
+    list-style:none;
+    display:flex;
+
+}
+
+.cabecalho__menu-item {
+   letter-spacing: 3px;
+   margin-left: 32px;
+   
+
+}
+
+.mobile-menu {
+    cursor:pointer;
+    display:none;
+}
+
+.mobile-menu div {
+    width:32px;
+    height:2px;
+    background:#ffffff;
+    margin: 8px;
+}
+
+@media screen and (max-width: 999px) {
+    body {
+       overflow-x: hidden;
+       
+      
+   
+       
+    }
+
+    .cabecalho__menu-lista {
+        display:none;
+        position: absolute;
+        top:8vh;
+        left:0;
+        width:40vw;
+        height:60vh;
+        background:#a52c2c;
+        flex-direction:column ; 
+        align-items:center;
+        justify-content:space-around;
+        transform: translateX(100%);
+       
+    }
+
+    .cabecalho__menu-item {
+        margin-left: 0;
+        opacity:30;
+      }
+
+      .mobile-menu {
+        display:block;
+      }
+
+      .cabecalho__menu-lista.active {
+        transform:translateX(0);
+      }
+}
+
+
+
+
+.logo {
+    font-size:20px;
+    
+    
+}
+
+.cabecalho__menu-item {
+    letter-spacing: 3px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+ 
+ }

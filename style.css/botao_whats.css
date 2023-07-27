@@ -1,0 +1,15 @@
+.whats {
+    
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    z-index: 999;
+}
+
+.whats__img {
+    width:100px;
+}
+
+.whats__img:hover{
+    cursor: pointer;
+}

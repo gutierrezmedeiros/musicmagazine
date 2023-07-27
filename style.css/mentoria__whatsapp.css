@@ -1,0 +1,24 @@
+.mentoria__whatsapp {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2em 0 2em 0;
+}
+
+.mentoria__whatsapp-titulo {
+    padding-bottom: 1em;
+}
+
+.mentoria__whatsapp-foto {
+    width:15%;
+    cursor: pointer;
+}
+
+.mentoria__whatsapp-texto {
+    text-align: center;
+
+}
+
+.mentoria__whatsapp-lista {
+    padding: 2em 0 1em 0;
+}
