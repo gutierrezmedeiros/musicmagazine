@@ -1,7 +1,7 @@
 .formulario-pedido {
     width:80%;
    
-    padding-top:2em;
+    padding-top:5em;
 
 }
 
@@ -34,4 +34,20 @@ form {
     display: flex;
     justify-content: center;
     align-items:center;
+}
+
+
+@media screen and (min-width: 700px) {
+
+   
+
+    .formulario-titulo{
+        font-size: 50px;
+       
+    }
+
+    
+
+    
+
 }

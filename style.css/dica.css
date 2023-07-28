@@ -13,8 +13,7 @@
 }
 
 .dica__titulo:hover {
-    transition: 1s;
-    color:blue;
+       color:blue;
 }
 
 .dica__botao {
@@ -24,6 +23,7 @@
     background-color: var(--cor-tercearia);
     cursor:pointer;
     border-radius: 1em solid;
+    transition: 1s;
    
 }
 
