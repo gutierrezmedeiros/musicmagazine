@@ -9,20 +9,26 @@
     <body>
         <header class="cabecalho">
         
-            <nav class="cabecalho__menu">
+          
+                <div>
+                    <a href="#" class="logo">top play</a>
+
+                </div>
                
+               <div>
+                 <ul class="cabecalho__menu-lista hide" id="hamburger">
+                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">HOME</a></li> 
+                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">PEDIDO</a></li>
+                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">SOBRE</a></li>
+                </ul>
+                </div>
+
                 <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <a href="#" class="logo">top play</a>
-                <ul class="cabecalho__menu-lista">
-                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">HOME</a></li> 
-                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">PEDIDO</a></li>
-                   <li> <a href="#" class="cabecalho__menu-item" id="cabecalho__menu-item">SOBRE</a></li>
-                </ul>
-            </nav>
+      
 
         </header>
         <main>
@@ -42,7 +48,7 @@
                 
                 <h1 class="titulo">TOP PLAY</h1>
                 <p class="titulo__texto">
-                    <img src="/img/Foguete.png"class="titulo__pagina-foto">
+                    <img src="/img/Foguete.png"class="titulo__pagina-foto" id="foguete">
                     SERVIÇOS DE IMPULSIONAMENTO DE MÚSICA PERSONALIZADOS PARA AJUDAR ARTISTAS E 
                     MÚSICOS A ALCANÇAR MAIS OUVINTES EM PLATAFORMAS DE STREAMING. 
 
@@ -150,11 +156,12 @@
             <h2 class="play__remunerado-titulo">ENTENDA O PLAY REMUNERADO</h2>
             <p class="play__remunerado-texto">
                 Esses plays funcionam da seguinte forma: 
-                São Plays reais onde você RECEBE um valor 
-                de cada vez que sua música for executada, 
+                São Plays reais onde você RECEBE um VALOR
+                cada vez que sua música for executada, 
                 chegando a somar valores em 
                 DOLARES que você receberá pela agregadora onde subio sua música.
-                Geralmente a cada 100 mil plays você recebe 100 Dolares
+                Uma conta rápida: geralmente a cada 100 mil plays você recebe aproximadamente de $100,00 a 150,00 Dolares.
+                Lembrando que a cada play você é remunerado!
                 OBS: dependendo de quanto paga a loja de stream (Spotify, Deezer, Google Play, Apple Music etc.). Equivalente a 600 reais aproximadamente.
                 Ou seja, se você investir R$1.000,00 reais, na verdade investio R$400.00 porque terá retorno FINANCEIRO além de da um UP no seu perfil musical.
                 
@@ -271,13 +278,13 @@
             <h1 class="formulario-titulo">FAÇA SEU PEDIDO</h1>
             <form class="form">
                 <div class="label-pedido">
-                    <label for="pedido" >Nome do Pedido</label>
-                    <input type="pedido" class="pedido-control" required autofocus/>
+                    <label for="pedido">Nome do Pedido</label>
+                    <input type="pedido" class="pedido-control" id="input-pedido" required autofocus/>
                 </div>
 
                 <div class="label-quantidade">
                     <label for="quantidade">Quantidade</label>
-                    <input type="quantidade" id="quantidade" min="5 mil plays" step="5" class="quantidade-control" required/>
+                    <input type="quantidade" id="quantidade" min="5 mil plays" step="5" class="quantidade-control" value="Mínimo 5 Mil"required/>
                 </div>
                 <div class="label-artista">
                     <label for="artista">Nome do Artista</label>
@@ -308,10 +315,12 @@
             <ul class="plus__lista">
                     <li class="plus__lista-item">
                
-                        <h2 class="plus__lista-titulo"> VOCÊ GERA SEUS PROPRIOS PLAYS E SUA RENDA</h2>
+                        <h2 class="plus__lista-titulo"> VOCÊ GERA SEUS PRÓPRIOS PLAYS E SUA RENDA</h2>
                         <p class="plus__lista-texto">
-                            Aqui damos a chave que abre a porta para o seu SUCESSO.
-                            Vamos te mostrar como os grandes artistas e outros fazem para gerar renda e plays imediato ao lançar suas músicas. 
+                            Aqui damos a chave que ABRE a porta para o SEU SUCESSO.
+                            Vamos te mostrar como os grandes artistas e outros fazem para gerar renda e plays imediato ao lançar suas músicas.
+                            OBS: Só será LIBERADO para 10 PESSOAS!<br>
+                            Entre na lista para garantir uma vaga.
                         </p>
                     </li>       
                  <li class="plus__lista-item">
@@ -331,7 +340,7 @@
                     </li>
                     <li class="plus__lista-item">
                             5 - OBS: Quantidade de ouvintes no SPOTIFY é importante mas a qualidade deles é o que importa.
-                                    é melhor ter 10 ouvintes que escutam todos os dias que 10 mil que nunca vão escutar nada!
+                                    é melhor ter 10 ouvintes que escutam todos os dias, que 10 mil que nunca vão escutar nada!
                                     Te ajudamos com isso também.
                 </li>
                  
@@ -342,15 +351,15 @@
             </section>
             
             <div class="plus__botao">
-                <a href="https://wa.me/5511972725164" class="plus__botao-servico" >Comprar serviço</a>
+                <a href="https://wa.me/5511972725164" class="plus__botao-servico" >Entrar na lista de espera</a>
             </div>
             
 
             <section class="mentoria__whatsapp">
                 <img src="/img/Spotify.png"class="mentoria__whatsapp-foto">
                 <h2 class="mentoria__whatsapp-titulo">Mentoria WhatsApp</h2>
-                <p class="mentoria__whatsapp-texto">Esse serviço precisa ser agendado após a efetivação do pagamento</p>
-                <p class="mentoria__whatsapp-texto">Você receberá a chamada no rorário agendado para fazer essa consultoria ao vivo.</p>
+                <p class="mentoria__whatsapp-texto">Esse serviço precisa ser agendado após a efetivação do pagamento.</p>
+                <p class="mentoria__whatsapp-texto">Você receberá a chamada no horário agendado para fazer essa consultoria ao vivo.</p>
                
                      <ul class="mentoria__whatsapp-lista">
                         <li class="mentoria__whatsapp-lista-item">WhatsApp 30 minutos (ao vivo)</li>
@@ -360,14 +369,14 @@
                         <li class="mentoria__whatsapp-lista-item">Tirar todas as suas dúvidas</li>
                     </ul>
                     <div class="botao">
-                        <a href="https://wa.me/5511972725164" class="botao__servico" >Agendar mentoria por whatsapp</a>
+                        <a href="https://wa.me/5511972725164" class="botao__servico" >Agendar mentoria</a>
                     </div>
     
         
             </section>
             <section class="distribuicao">
                 
-                <h2 class="distribuicao__titulo">Distribuimos sua musica</h2>
+                <h2 class="distribuicao__titulo">Distribuimos sua música</h2>
                 
                 <ul class="distribuicao__lista">
                     
@@ -378,7 +387,7 @@
                         Criamos sua conta no Spotify.
                     </li>
                     <li class="distribuicao__itens">
-                        Distribuimos sua musica.
+                        Distribuimos sua música.
                     </li>
                   
                 </ul>
@@ -426,5 +435,6 @@
     
     <script src="main.js/mine.js/menu.js"></script>
     <script src="main.js/dica.js"></script>
+    <script src="main.js/formulario.js"></script>
     </body>
 </html>

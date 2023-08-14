@@ -25,6 +25,7 @@
 
 .rodape__lista-item:hover{
     color:blue;
+    text-decoration: underline;
 }
 
 .rodape__direitos{
@@ -33,4 +34,5 @@
 
 .rodape__direitos:hover{
     color:blue;
+    text-decoration: underline;
 }

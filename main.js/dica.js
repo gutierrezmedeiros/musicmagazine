@@ -13,6 +13,7 @@ function mostra(el) {
 function toggle(el) {
     var alterna = document.getElementById(el).style.display;
 
+
     if(alterna =="none") {
         document.getElementById(el).style.display ='block';
         
@@ -20,3 +21,7 @@ function toggle(el) {
         document.getElementById(el).style.display ='none';
     }
 }
+
+
+
+

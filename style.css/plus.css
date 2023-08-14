@@ -10,7 +10,9 @@
     width:15%;
     cursor: pointer;
 }
-
+strong {
+    color:green;
+}
 .plus__titulo {
     font-size: 30px;
     text-transform: uppercase;
