@@ -19,15 +19,17 @@
 .cabecalho__menu-lista {
     list-style:none;
     display:flex;
-    
-   
+     
 }
+.cabecalho__not {
+   
+display:none;
 
+}
 .cabecalho__menu-item {
    letter-spacing: 3px;
    margin-left: 32px;
-   
-   
+  
 
 }
 
@@ -63,6 +65,8 @@
        
     }
 
+   
+
     .cabecalho__menu-lista {
        
         position: absolute;
@@ -75,13 +79,13 @@
         align-items:center;
         justify-content:space-around;
         
-       
-       
-    }
+}
 
     .cabecalho__menu-item {
         margin-left: 0;
-        opacity:30;
+      
+        
+        
       }
 
       .mobile-menu {
@@ -109,4 +113,21 @@
 
  .cabecalho__menu-item:hover{
     text-decoration: underline;
+ }
+
+ @media screen and (min-width:999px) {
+    .not{
+        display:flex;
+        justify-content:space-around;
+
+    }
+    .cabecalho__not{
+        list-style:none;
+        display:flex;
+        align-items: center;
+        justify-content:flex-end;
+       
+       
+    }
+   
  }
