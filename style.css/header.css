@@ -47,25 +47,21 @@ display:none;
     margin: 8px;
 }
 
-.show {
-    opacity: 1;
-    transition:1s;
 
-}
-.hide {
-
-    opacity: 0;
-    
-
-}
 
 @media screen and (max-width: 999px) {
-    body {
-      
-       
+    .show {
+        opacity: 1;
+        transition:1s;
+    
+    }
+    .hide {
+    
+        opacity: 0;
+        
+    
     }
 
-   
 
     .cabecalho__menu-lista {
        
@@ -116,18 +112,5 @@ display:none;
  }
 
  @media screen and (min-width:999px) {
-    .not{
-        display:flex;
-        justify-content:space-around;
-
-    }
-    .cabecalho__not{
-        list-style:none;
-        display:flex;
-        align-items: center;
-        justify-content:flex-end;
-       
-       
-    }
-   
+    
  }
