@@ -1,0 +1,101 @@
+.producao__musical {
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    padding-bottom: 4em;
+    background-color: rgb(228, 136, 23);
+}
+
+.producao__musical-titulo {
+    text-align: center;
+    text-transform:uppercase ;
+    padding:1em ;
+
+}
+
+.producao__musical-texto {
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0 1em 0 1em;
+
+}
+
+.producao__musical-foto {
+    width:100%;
+     
+    align-items: center;
+}
+
+
+.producao__botao {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+   
+   
+
+}
+
+.producao__musical-botao {
+    
+    
+    width:100%;
+    background-color: var(--cor-tercearia);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:1em;
+    margin: 2em 2em 2em 2em;
+    padding: 0.5em  3em;
+}
+
+@media screen and (min-width:1000px) {
+
+
+    .producao__musical {
+        display:flex;
+        
+    }
+
+    .producao__musical-titulo {
+        font-size: 50px;
+    
+    }
+
+    .producao__musical-texto {
+        font-size: 30px;
+    
+    }
+
+    .producao__musical-lista {
+       
+        display:flex;
+        justify-content: center;
+        letter-spacing: 0;
+        align-items: center;
+        font-size:30px;
+        
+    }
+    .producao__musical-item {
+        font-size: 30px;
+        padding-right: 1em;
+        text-transform: uppercase;
+
+    }
+    
+
+    .producao__musical-botao {
+        font-size: 25px;
+    
+    
+        width:100%;
+        background-color: var(--cor-tercearia);
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius:1em;
+        margin: 5em 5em 5em 5em;
+        padding: 1em 10em;
+    }
+    
+
+}

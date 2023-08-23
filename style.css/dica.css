@@ -5,7 +5,7 @@
 }
 
 .dica__titulo {
-    color: green;
+    color:white;
     padding-bottom: 1em;
     text-transform:uppercase ;
     cursor:pointer;
@@ -13,17 +13,20 @@
 }
 
 .dica__titulo:hover {
-       color:blue;
+       color:green;
 }
 
 .dica__botao {
+    
+    font-size: 16px;
     width:80%;
     padding: 1em 1em;
     color: var(--cor-secundaria);
     background-color: var(--cor-tercearia);
     cursor:pointer;
-    border-radius: 1em solid;
-    transition: 1s;
+    border-radius: 1em;
+    text-transform: uppercase;
+    
    
 }
 
@@ -39,4 +42,25 @@
 .dica__texto {
     text-align: center;
     padding: 1em 1em 3em 1em;
+    
+}
+
+@media screen and (min-width:1000px) {
+
+
+    .dica__titulo {
+        font-size:50px;
+        
+    }
+    .dica__botao {
+        font-size: 25px;
+        width:50%;
+        padding: 1em 1em;
+        color: var(--cor-secundaria);
+        background-color: var(--cor-tercearia);
+        cursor:pointer;
+        border-radius: 2em;
+        transition: 1s;
+       
+    }
 }
