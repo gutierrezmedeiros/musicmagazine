@@ -19,9 +19,17 @@ function toggle(el) {
         
     } else {
         document.getElementById(el).style.display ='none';
+        
     }
 }
 
 
 
 
+var aparece = document.querySelector(".titulo");
+
+aparece.addEventListener('click' , function () {
+    console.log("Voce aprende!");
+    alert("Muito bem!!");
+
+})
