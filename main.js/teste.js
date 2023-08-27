@@ -62,4 +62,22 @@ numeros.reduce(function (total, num){
 
 }, 1);
 
+//let i = 0;
+
+//while (i>10 ) {
+    //console.log(i);
+    //i++
+//}
+
+// Temos que testar mais uma vez esse codigo de baixo
+
+/*let resposta = '';
+
+do {
+
+    let resposta = window.prompt('Voce e maior de idade?');
+} while (resposta.toLowerCase() != 'sim');*/
+
+
+
 

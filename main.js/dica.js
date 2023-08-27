@@ -26,10 +26,4 @@ function toggle(el) {
 
 
 
-var aparece = document.querySelector(".titulo");
 
-aparece.addEventListener('click' , function () {
-    console.log("Voce aprende!");
-    alert("Muito bem!!");
-
-})

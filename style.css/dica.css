@@ -26,6 +26,7 @@
     cursor:pointer;
     border-radius: 1em;
     text-transform: uppercase;
+   
     
    
 }
@@ -54,13 +55,14 @@
     }
     .dica__botao {
         font-size: 25px;
-        width:50%;
-        padding: 1em 1em;
+        width:70%;
+        padding: 0.5em 1em 0.5em 1em;
         color: var(--cor-secundaria);
         background-color: var(--cor-tercearia);
         cursor:pointer;
         border-radius: 2em;
         transition: 1s;
+       
        
     }
 }
