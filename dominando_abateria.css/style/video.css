@@ -1,0 +1,26 @@
+.video__apresentacao-vendas {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .video__apresentacao-vendas {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:5em;
+        padding: 0 15em 0 15em;
+       
+        
+    }
+    
+    
+}
+
+
+
+
+

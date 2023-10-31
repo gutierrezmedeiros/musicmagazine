@@ -1,0 +1,58 @@
+.lista__forma__de__pagamento {
+    display:flex;
+  
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap-reverse ;
+    gap: 1em;
+}
+
+.preco {
+    background-color: aliceblue;
+}
+
+.preco__titulo{
+    padding: 1em 0 1em 0;
+}
+
+.preco__titulo, .preco__subtitulo,
+.preco__preco, .preco__avista {
+    color:var(--cor-primaria);
+    text-align:center;
+    
+  
+}
+
+strong {
+    color:rgb(230, 90, 3);
+
+}
+
+.preco__subtitulo{
+    color:rgb(170, 3, 3);
+    font-size: 1em;
+}
+
+.preco__subtitulo2 {
+    font-size: 1em;
+    color:var(--cor-primaria);
+    text-align:center;
+
+}
+
+.preco__preco {
+    font-size: 2em;
+    color:green;
+}
+
+.preco__avista  {
+    font-size:1em;
+
+}
+
+.lista__forma__de__tarifa {
+    font-size:1em;
+    text-align: center;
+    color:var(--cor-primaria);
+    padding: 1em 0 1em 0;
+}

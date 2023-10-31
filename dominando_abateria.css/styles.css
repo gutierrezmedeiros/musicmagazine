@@ -1,0 +1,51 @@
+@import url(style/header.css);
+@import url(style/video.css);
+@import url(style/apresentacao_curso.css);
+@import url(style/bonus.css);
+@import url(style/button_vendas.css);
+@import url(style/gutierrez_medeiros.css);
+@import url(style/redes_sociais.css);
+@import url(style/destinado.css);
+@import url(style/beneficios.css);
+@import url(style/perguntas__frequentes.css);
+@import url(style/video__estudar.css);
+@import url(style/preco.css);
+@import url(style/certificacao.css);
+@import url(style/garantia.css);
+@import url(style/curso_modulos.css);
+@import url(style/eu__quero.css);
+@import url(style/aluno__destaque.css);
+@import url(style/comentarios.css);
+@import url(style/rodape.css);
+
+:root {
+
+    --cor-primaria:#000000;
+    --cor-secundaria:#F6F6F6;
+    --cor-da-terciaria:#EBB031;
+    --texto-margin:0 1rem 0 1rem;
+    --cor-cinza-fundo:rgb(53, 52, 52);
+    --cor-rodape-hover:blue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+   
+
+}
+
+.titulo__inicial {
+    font-size:16px;
+    text-align:center;
+    color:var(--cor-da-terciaria);
+    margin: 1em;
+}
+

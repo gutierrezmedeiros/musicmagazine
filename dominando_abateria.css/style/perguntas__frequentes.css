@@ -1,0 +1,134 @@
+.botao__perguntas-frequentes {
+    width:20rem;
+    text-align: center;
+    font-size: 12px;
+    background-color:rgb(67, 65, 65);
+    color:var(--cor-secundaria);
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    cursor:pointer;
+}
+
+.botao__perguntas-frequentes:hover {
+    color:var(--cor-primaria);
+    background-color: #f1d609;
+    transition:500ms;
+    
+}
+
+
+.perguntas__frequentes {
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
+}
+
+.perguntas__frequentes-titulo {
+    text-align:center;
+    padding: 1em 0 1em 0;
+}
+
+.perguntas__frequentes-lista {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.perguntas__frequentes-item {
+    text-align: center;
+    font-size: 12px;
+    background-color:rgb(67, 65, 65);
+    width:90%;
+    color:var(--cor-secundaria);
+    border-radius: 2em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    
+}
+
+.perguntas__frequentes-resposta {
+    
+    text-align: center;
+    background-color:green;
+    padding: 0.5em 0 0.5em 0;
+    border-radius:0.5em;
+    width:20rem;
+    margin-bottom: 1em;
+    cursor:pointer;
+
+
+}
+
+.perguntas__frequentes-conteudo-1,
+.perguntas__frequentes-conteudo-2, 
+.perguntas__frequentes-conteudo-3,
+.perguntas__frequentes-conteudo-4,
+.perguntas__frequentes-conteudo-5,
+.perguntas__frequentes-conteudo-6,
+.perguntas__frequentes-conteudo-7,
+.perguntas__frequentes-conteudo-8
+ {
+    display:none;
+}
+
+.perguntas__frequentes-item:hover {
+    color:var(--cor-primaria);
+    background-color: #f1d609;
+    transition:500ms;
+}
+
+@media screen and (min-width:513px) {
+    .perguntas__frequentes-item  {
+        width:90%;
+        border-radius: 2em;
+        padding:1em;
+        margin-bottom: 1em;
+        font-size: 16px;
+
+    }
+    .botao__perguntas-frequentes, 
+    .perguntas__frequentes-resposta {
+        width:30rem;
+       
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .perguntas__frequentes-item, 
+    .botao__perguntas-frequentes, 
+    .perguntas__frequentes-resposta {
+        width:90%;
+        border-radius: 2em;
+        padding:1em;
+        margin-bottom: 1em;
+        font-size: 16px;
+       
+    }
+
+    .perguntas__frequentes-resposta {
+        text-align: center;
+        background-color:green;
+        padding: 0.5em 0 0.5em 0;
+        border-radius:0.5em;
+        width:20rem;
+        margin-bottom: 1em;
+        cursor:pointer;
+    }
+
+    
+
+    .botao__perguntas-frequentes, .perguntas__frequentes-resposta {
+        width:50rem;
+    }
+
+    .perguntas__frequentes-conteudo {
+        display:none;
+    }
+
+}
+
+
+

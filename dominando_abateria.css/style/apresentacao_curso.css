@@ -1,0 +1,16 @@
+.apresentacao__curso {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagem__curso {
+    cursor:pointer;
+    width:50%;
+}
+
+@media screen and (min-width:1024px) {
+    
+}

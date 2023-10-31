@@ -1,5 +1,13 @@
+.titulo__pagina {
+    display:flex;
+    flex-direction: column;
+    text-align:  center;
+    jus: ;
+
+}
+
 .titulo {
-   text-align:  center;
+   
    font-size: 40px;
    padding: 1em;
    cursor:pointer; 
@@ -18,7 +26,8 @@
 }
 
 .titulo__pagina-foto {
-    width:100px;
+   
+    width:50px;
     cursor:pointer;
 }
 

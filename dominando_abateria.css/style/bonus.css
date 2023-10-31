@@ -1,0 +1,26 @@
+.bonus__lista {
+    list-style-type: none;
+}
+
+.bonus__titulo {
+    text-align: center;
+    color:var(--cor-da-terciaria);
+    margin: 1em;
+   
+}
+
+.bonus__lista__titulo {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    
+}
+
+.bonus__lista__item {
+    text-align:center;
+    padding-bottom: 1rem;
+    margin:0 1rem 0 1rem;
+}
+
+
+

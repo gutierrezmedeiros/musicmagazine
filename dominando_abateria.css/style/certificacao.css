@@ -1,0 +1,18 @@
+.certificacao {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+}
+
+.certificacao__logo {
+    width: 30%;
+}
+
+.certificacao__titulo {
+    color:var(--cor-primaria);
+}
+
+@media screen and(min-width:720px ){
+    
+}

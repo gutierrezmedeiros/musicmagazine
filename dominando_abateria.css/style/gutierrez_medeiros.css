@@ -1,0 +1,60 @@
+.gutierrez__medeiros {
+    background-color:var(--cor-cinza-fundo);
+}
+
+.gutierrez__medeiros-titulo {
+    text-align:center;
+    padding:0.5rem 0 0 0;
+}
+
+.container__img {
+    text-align: center;
+}
+.foto__guti {
+   
+    width:30%;
+    margin:1em;
+    border-radius: 70%;
+    cursor:pointer;
+   
+}
+
+.gutierrez__medeiros-texto {
+    text-align:center;
+    padding-bottom: 1rem;
+    margin:0 1rem 0 1rem;
+}
+
+@media screen and (min-width:720px) {
+
+    .gutierrez__medeiros {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+
+    .gutierrez__medeiros-titulo {
+        text-align:center;
+        margin-top:1em;
+    }
+
+    .foto__guti {
+        width:50%;
+        border-radius: 50%;
+       
+    }
+
+
+.gutierrez__medeiros-texto {
+    text-align:center;
+    padding-bottom: 1rem;
+    margin:1em 5em 0 1em;
+   
+    
+}
+
+  
+
+}

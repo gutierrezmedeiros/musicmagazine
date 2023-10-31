@@ -1,0 +1,17 @@
+.rede__sociais {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 80px;
+   
+}
+
+.rede__sociais-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:2em;
+    height:2em;
+    margin:0 1em 1em 0 ;
+    padding:1em 0 0 0;
+}

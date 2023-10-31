@@ -10,17 +10,32 @@
 @import url(/style.css/mentoria__whatsapp.css);
 @import url(/style.css/pagamento.css);
 @import url(/style.css/apresentacao.css);
-@import url(/style.css/distribuicao.css);
+@import url(/style.css/distribuicao_pagina.css);
 @import url(/style.css/botao_whats.css);
 @import url(/style.css/formulario-pedido.css);
 @import url(/style.css/dica.css);
 @import url(/style.css/producao_musical.css);
+@import url(style.css/swiper.css);
+@import url(artista_do_mes.css);
+@import url(style.css/mentoria_whatsapp_pagina.css);
+@import url(distribuicao_home.css);
+@import url( artigos-recomendados.css);
+@import url(style.css/materia_geral.css);
+@import url(style.css/contener-materias-novas.css);
+
 :root {
 
     --cor-primaria:black;
     --cor-secundaria:white;
     --cor-tercearia:green;
     --cor-cabecalho: rgb(203, 203, 203);
+    --cor-rodape:gray;
+    --cor-fundo-site:white;
+    --cor-de-texto:black;
+    --cor-rodape-hover:blue;
+    --cor-link-hover:blue;
+
+    
 }
 
 
@@ -29,7 +44,8 @@
     padding:0;
 }
 body {
-
+   
+    width:100vw;
     height: 100vh;
     box-sizing: border-box;
     background-color:black;

@@ -1,0 +1,62 @@
+.mentoria__whatsapp {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 1em 1em 1em;
+
+
+}
+
+.pagamento-lista {
+    padding: 1em;
+}
+
+.pagamento-lista-titulo {
+    font-size: 20px;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.mentoria__whatsapp-foto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    padding: 1em;
+
+}
+
+.mentoria__whatsapp-titulo {
+    text-align: center;
+    padding:0.5em;
+
+}
+
+.mentoria__whatsapp-texto {
+    text-align: center;
+    padding:0 1em 1em 3em;
+    
+}
+
+
+
+.mentoria_w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mentoria__whatsapp-foto_capa {
+    width:60%;
+    align-items: center;
+}
+
+.mentoria__whatsapp-titulo_capa {
+    text-align: center;
+    padding:0.5em;
+}
+.mentoria__whatsapp-texto_capa {
+    text-align: center;
+    padding:0 1em 1em 3em;
+    
+}

@@ -1,0 +1,13 @@
+.eu__quero {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eu__quero-imagem {
+    width:50%;
+    cursor:pointer;
+}
+
+
+

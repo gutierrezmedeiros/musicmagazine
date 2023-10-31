@@ -1,0 +1,46 @@
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.noticia {
+    background-color: #060101;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.noticia h2 {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    
+}
+
+.noticia p {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

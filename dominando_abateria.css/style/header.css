@@ -1,0 +1,71 @@
+.cabecalho1 {
+    display:flex;
+    justify-content:start;
+    align-items: center;
+
+}
+
+.cabecalho__logo-gutierrez {
+    position: absolute;
+    width:15%;
+    margin-left: 1em;
+    padding-right: 1.5em;
+    position:relative;
+}
+
+.cabecalho__logo , .cabecalho__logo-gutierrez {
+    cursor: pointer;
+}
+
+.cabecalho__logo {
+    width: 50%;
+    height: 50;
+    padding-top: 1em;
+    
+}
+
+@media screen and (min-width:500px) {
+    .cabecalho__logo-gutierrez {
+        width:15%;
+        margin-left: 1em;
+        padding-right: 4em;
+    }
+
+    .cabecalho {
+        padding:0 0 2em 0;
+
+    }
+
+    .aprender {
+        padding:0 0 2em 0;
+
+    }
+   
+}
+
+@media screen and (min-width:720px) {
+    .cabecalho__logo {
+        width: 30%;
+        height: 30%;
+        padding-top: 1em;
+        margin-left:5em;
+    }
+
+   
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho__logo {
+        width: 30%;
+        height: 30%;
+        padding-top: 1em;
+        margin-left:10em;
+    }
+    
+    .cabecalho__logo {
+        width: 30%;
+        height: 30%;
+        padding-top: 1em;
+        margin-left:7em;
+    }
+}

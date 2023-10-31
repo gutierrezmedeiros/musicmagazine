@@ -1,0 +1,36 @@
+.garantia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.garantia__titulo {
+    text-align: center;
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+.garantia__subtitulo {
+    text-align:center;
+    font-size: 1em;
+    padding: 0.5em 0 0.5em 0;
+   
+}
+
+.garantia__texto {
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0 1em 0 1em;
+}
+
+.garantia__logo {
+    width:30%;
+    padding: 0 0 1em 0;
+}
+
+@media screen and (min-width:720px ){
+    .garantia__logo {
+        width:20%;
+    }
+    
+}

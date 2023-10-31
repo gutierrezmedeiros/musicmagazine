@@ -67,8 +67,9 @@ logo.addEventListener("click", function(){
 //Teste na fodo do spotify
 var foto = document.querySelector('.lista__servico-foto');
 
+
 foto.addEventListener('click',()=>{
    console.log("Fui clicado");
-   alert("Disponivel")
+   alert("Todos os serviços estão Disponivéis!")
 })
 

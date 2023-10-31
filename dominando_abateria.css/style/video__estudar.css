@@ -1,0 +1,26 @@
+.video__estudar-titulo {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.video__estudar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em 0 1em 0;
+}
+
+@media screen and (min-width:720px) {
+    video__estudar {
+        display:flex;
+        justify-content: center;
+        padding-top:5em;
+        width: 560px;
+        height: 315px;
+        padding: 0 0 0 5em;
+
+
+    }
+
+}

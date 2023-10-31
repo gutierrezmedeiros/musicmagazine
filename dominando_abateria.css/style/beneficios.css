@@ -1,0 +1,19 @@
+.beneficios {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.beneficios__titulo {
+    padding:1em 0 1em 0;
+    text-align:center;
+}
+
+.beneficios__lista {
+    list-style-type:none;
+    margin:var(--texto-margin);
+    padding-bottom: 2em;
+    text-align:center;
+}
+

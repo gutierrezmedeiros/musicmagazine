@@ -1,0 +1,82 @@
+.button__vendas1, 
+.button__vendas2, 
+.button__vendas3 , 
+.button__vendas4 , 
+.button__vendas5 {
+   display:flex;
+   justify-content: center;
+   padding:2em 0 2em 0;
+  
+}
+
+.button__vendas-item {
+    padding:1em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--cor-da-terciaria);
+    color:var(--cor-secundaria);
+    border:0.1em solid #FFFFFF;
+    border-radius:1em;
+}
+
+
+.button__vendas1 :hover {
+    background-color:green;
+    transition: 1s;
+}
+
+.button__vendas2 {
+    display:flex;
+    justify-content: center;
+    padding:2em 0 2em 0;
+   
+ }
+
+ .button__vendas2 :hover {
+    background-color:green;
+    transition: 1s;
+}
+
+
+ .button__vendas3 {
+    display:flex;
+    justify-content: center;
+    padding:2em 0 1em 0;
+   
+ }
+
+ .button__vendas3 :hover {
+    background-color:green;
+    transition: 1s;
+    
+}
+
+.button__vendas4 {
+    display:flex;
+    justify-content: center;
+    padding:2em 0 2em 0;
+   
+ }
+
+ .button__vendas4 :hover {
+    background-color:green;
+    transition: 1s;
+    
+}
+.button__vendas5 :hover {
+    background-color:green;
+    transition: 1s;
+    
+}
+
+@media screen and (min-width: 720px) {
+    .button__vendas-item {
+        padding:1em 9em;
+        background-color: var(--cor-da-terciaria);
+        color:var(--cor-secundaria);
+        border:0.1em solid #FFFFFF;
+        border-radius:1em;
+    }
+   
+    
+}

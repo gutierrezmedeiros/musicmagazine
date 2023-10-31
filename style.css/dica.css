@@ -10,6 +10,7 @@
     text-transform:uppercase ;
     cursor:pointer;
     text-decoration: underline;
+    padding-top: 2em;
 }
 
 .dica__titulo:hover {
@@ -50,7 +51,7 @@
 
 
     .dica__titulo {
-        font-size:50px;
+        font-size:30px;
         
     }
     .dica__botao {
