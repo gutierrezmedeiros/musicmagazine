@@ -1,3 +1,22 @@
+.contener-materias-novas-titulo {
+    text-align: center;
+    padding:4px;
+    margin: 10px 0 10px 0;
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
+}
+
+.materia-link-titulo {
+    text-align: center;
+}
+.materia-link-titulo:hover {
+    color:blue;
+}
+    
+.contener-materias-novas-titulo:hover {
+    color: blue;
+}
+
 
 h1 {
     margin: 0;
@@ -13,8 +32,8 @@ h1 {
 }
 
 .noticia {
-    background-color: #060101;
-    border: 1px solid #ddd;
+    background-color:var(--cor-primaria);
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 5px;
 }

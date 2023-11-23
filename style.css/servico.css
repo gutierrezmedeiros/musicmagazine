@@ -1,3 +1,13 @@
+.servico__vendas-titulo {
+    text-align: center;
+    
+    padding:4px;
+    margin: 10px 0 10px 0;
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
+}
+
+
 .lista__servico-titulo {
     font-size: 16px;
 }

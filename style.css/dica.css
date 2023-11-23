@@ -2,15 +2,17 @@
     display:flex;
     flex-direction:column;
     align-items: center;
+    padding-bottom: 2em;
 }
 
-.dica__titulo {
-    color:white;
-    padding-bottom: 1em;
-    text-transform:uppercase ;
-    cursor:pointer;
-    text-decoration: underline;
-    padding-top: 2em;
+
+.dica-titulo {
+    font-size: 20px;
+    text-align: center;
+    padding:4px;
+    margin: 50px 0 50px 0;
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
 }
 
 .dica__titulo:hover {
@@ -21,16 +23,18 @@
     
     font-size: 16px;
     width:80%;
-    padding: 1em 1em;
+  
     color: var(--cor-secundaria);
     background-color: var(--cor-tercearia);
     cursor:pointer;
     border-radius: 1em;
     text-transform: uppercase;
+    padding: 1em 0 1em 0;
    
     
    
 }
+
 
 .dica__botao:hover {
     background-color:rgb(26, 36, 11);
@@ -51,7 +55,11 @@
 
 
     .dica__titulo {
-        font-size:30px;
+        
+       
+        padding:4px;
+        margin: 10px 0 10px 0;
+        
         
     }
     .dica__botao {

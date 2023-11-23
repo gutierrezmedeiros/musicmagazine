@@ -2,20 +2,19 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    height:20vh; 
+    height:30vh; 
     background-color: var(--cor-rodape);
     
     
 }
 .logo {
-    width:50%;
-    font-size:20px;
-    text-decoration: none;
-    text-transform:uppercase;
-    letter-spacing:4px;
-    
-    
+    width:70%;
+    height:50%;
+    margin: 4px;
+      
 }
+
+
 
 .cabecalho__menu-lista {
     list-style:none;
@@ -31,9 +30,6 @@ display:none;
    letter-spacing: 3px;
    margin-left: 32px;
  
-   
-  
-
 }
 
 .mobile-menu {
@@ -49,7 +45,10 @@ display:none;
     background:#ffffff;
     margin: 8px;
 }
+.espaco {
+    width:300px;
 
+}
 
 
 @media screen and (max-width: 999px) {
@@ -62,6 +61,8 @@ display:none;
     .cabecalho {
         width:auto;
     }
+
+   
 
     .hide {
     
@@ -103,11 +104,7 @@ display:none;
       }
 }
 
-.logo {
-    font-size:15px;
-    
-    
-}
+
 
 .cabecalho__menu-item {
     letter-spacing: 3px;
@@ -123,5 +120,6 @@ display:none;
  }
 
  @media screen and (min-width:999px) {
+
     
  }

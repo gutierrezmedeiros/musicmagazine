@@ -10,7 +10,7 @@
 @import url(/style.css/mentoria__whatsapp.css);
 @import url(/style.css/pagamento.css);
 @import url(/style.css/apresentacao.css);
-@import url(/style.css/distribuicao_pagina.css);
+@import url(/style.css/distribuicao_musica_pagina.css);
 @import url(/style.css/botao_whats.css);
 @import url(/style.css/formulario-pedido.css);
 @import url(/style.css/dica.css);
@@ -22,18 +22,21 @@
 @import url( artigos-recomendados.css);
 @import url(style.css/materia_geral.css);
 @import url(style.css/contener-materias-novas.css);
+@import url(style.css/bares-recomendados.css);
 
 :root {
 
-    --cor-primaria:black;
-    --cor-secundaria:white;
+    --cor-primaria:rgb(255, 255, 255);
+    --cor-secundaria:rgb(0, 0, 0);
     --cor-tercearia:green;
     --cor-cabecalho: rgb(203, 203, 203);
     --cor-rodape:gray;
-    --cor-fundo-site:white;
+    --cor-fundo-site:rgb(188, 180, 180);
     --cor-de-texto:black;
     --cor-rodape-hover:blue;
     --cor-link-hover:blue;
+    --cor-texto-hover:blue;
+    --background-secundario:rgb(228, 217, 217);
 
     
 }
@@ -48,13 +51,13 @@ body {
     width:100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color:black;
-    color:white;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
    
 }
 
 a {
-    color:#ffffff;
+    color:#000000;
     text-decoration: none;
     transition:0.3s;
 

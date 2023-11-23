@@ -1,0 +1,60 @@
+.bares-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.maisbares {
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
+    margin: 2em;
+}
+
+.bares-item {
+    padding-left: 1em;
+    margin-bottom:0.5em ;
+}
+
+
+.bares-botao {
+
+    width:50%;
+    background-color: var(--cor-secundaria);
+    text-decoration: none;
+    color:var(--cor-primaria);
+    border-radius:1em;
+    margin: 2em 2em 2em 2em;
+    padding: 0.5em 2em 0.5em 1.5em;
+   
+
+    
+}
+
+
+
+
+@media screen and (min-width:700px) {
+
+    .bares-botao {
+        width:100%;
+        font-size: 11px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+
+    .bares-botao {
+        width:50%;
+        background-color: var(--cor-secundaria);
+        text-decoration: none;
+      
+       
+       
+    }
+}
