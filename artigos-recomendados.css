@@ -1,6 +1,7 @@
 .artigos-recomendados {
     width:100vw;
-    height:130vh; 
+    height:120vh; 
+    
   
 }
 
@@ -17,7 +18,7 @@
  
     
     width:100vw;
-    height:130vh;
+    height:100vh;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:150px 150px 150px;
@@ -26,6 +27,7 @@
     align-content:center;
     align-items:center;
     justify-items: center;
+    
 
 
    
@@ -110,17 +112,22 @@
     margin:0 0.5rem;
 }
 
+.mais-artigos {
+    text-align: center;
+    font-size: 10px;
+    padding: 1em;
+    
+}
 @media screen and (min-width:700px) {
 
     .artigos-recomendados {
         width:100vw;
-        height:200vh; 
+        height:220vh; 
         padding-top: 2em;
        
        
     }
-
-    
+ 
 .contener {
    
     width:100vw;
@@ -133,26 +140,20 @@
     align-content:center;
     align-items:center;
     justify-items: center;
-    border: 1px solid #030202;
+   
     border-radius: 5px;
     
     
 
 }
 
-
-
 .artigo-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     width: 100%;
     height: 100%;
-   
     margin: 0 0.5rem 0 0.5rem;
-
-   
     border: 1px solid #000000;
 
 }
@@ -202,6 +203,11 @@
 }
 
 
-
+.mais-artigos {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 1em;
+    
+}
 
 }

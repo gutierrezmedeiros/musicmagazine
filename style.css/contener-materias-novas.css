@@ -14,7 +14,7 @@
 }
     
 .contener-materias-novas-titulo:hover {
-    color: blue;
+    
 }
 
 
@@ -56,9 +56,25 @@ h1 {
     text-align: center;
 }
 
+.mais-noticias {
+    text-align: center;
+    font-size:10px;
+  
+}
 
 
 
+@media screen and (min-width:700px) {
+
+    .contener-materias-novas-titulo {
+        text-align: center;
+        padding:4px;
+        margin: 10px 0 10px 0;
+        background-color: var(--cor-secundaria);
+        color:var(--cor-primaria);
+    }
+
+}
 
 
 
