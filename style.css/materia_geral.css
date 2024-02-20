@@ -24,6 +24,7 @@
     
 }
 
+
 .materias-lista-links-item:hover {
     color: blue;
 }
@@ -77,6 +78,8 @@
     width:25px;
     padding-left: 1em;
 }
+
+
 
 
 @media screen and (min-width:700px) {

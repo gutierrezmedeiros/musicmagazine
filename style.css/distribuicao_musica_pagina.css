@@ -76,6 +76,10 @@
 
 }
 
+.distribuicao__lista {
+    padding: 1em;
+}
+
 .botao {
     margin-top:1em;
 }
@@ -84,3 +88,4 @@ p {
     text-align: center;
     padding: 0 2em 0 2em;
 }
+

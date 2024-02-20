@@ -16,7 +16,7 @@
 }
 
 .dica__titulo:hover {
-       color:green;
+       color:rgb(0, 68, 128);
 }
 
 .dica__botao {
@@ -25,7 +25,7 @@
     width:80%;
   
     color: var(--cor-secundaria);
-    background-color: var(--cor-tercearia);
+    background-color:var(--botao-azul);
     cursor:pointer;
     border-radius: 1em;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
 
 
 .dica__botao:hover {
-    background-color:rgb(26, 36, 11);
+    background-color:rgb(21, 131, 220);
 }
 
 
@@ -67,7 +67,7 @@
         width:70%;
         padding: 0.5em 1em 0.5em 1em;
         color: var(--cor-secundaria);
-        background-color: var(--cor-tercearia);
+        background-color: var(--botao-azul);
         cursor:pointer;
         border-radius: 2em;
         transition: 1s;

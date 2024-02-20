@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
     text-align:  center;
-    background-color:var(--cor-fundo-site);
+    background-color:var(--background-branco);
     
 
 }
@@ -23,6 +23,7 @@
    font-size: 40px;
    padding: 1em;
    cursor:pointer; 
+
 }
 
 .titulo:hover {
@@ -34,6 +35,7 @@
     font-size:20px;
     padding-bottom: 1em;
     margin:0 1em 0 1em;
+   
    
 }
 

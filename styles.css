@@ -13,16 +13,29 @@
 @import url(/style.css/distribuicao_musica_pagina.css);
 @import url(/style.css/botao_whats.css);
 @import url(/style.css/formulario-pedido.css);
-@import url(/style.css/dica.css);
+@import url(/style.css/dica-home.css);
 @import url(/style.css/producao_musical.css);
 @import url(style.css/swiper.css);
-@import url(artista_do_mes.css);
+@import url(/style.css/artista_do_mes-home.css);
 @import url(style.css/mentoria_whatsapp_pagina.css);
-@import url(distribuicao_home.css);
-@import url( artigos-recomendados.css);
+@import url(/style.css/distribuicao_home.css);
+@import url( /style.css/artigos-recomendados-home.css);
 @import url(style.css/materia_geral.css);
 @import url(style.css/contener-materias-novas.css);
 @import url(style.css/bares-recomendados.css);
+@import url(style.css/artista_grid-pagina.css);
+@import url(style.css/associacao-materia-pagina.css);
+@import url(style.css/lei-rouanet-pagina.css);
+@import url(style.css/divulgarmusica-materia-pagina.css);
+@import url(style.css/direito\ autoral-materia-pagina.css);
+@import url(style.css/quantopaga-spotify-materia-pagina.css);
+@import url(style.css/comolancar-musica-materia-pagina.css);
+@import url(style.css/distribuidoras-materia-pagina.css);
+@import url(style.css/style-slide.css);
+
+
+
+
 
 :root {
 
@@ -30,13 +43,15 @@
     --cor-secundaria:rgb(0, 0, 0);
     --cor-tercearia:green;
     --cor-cabecalho: rgb(203, 203, 203);
-    --cor-rodape:gray;
+    --cor-rodape:rgb(159, 152, 152);
     --cor-fundo-site:rgb(188, 180, 180);
     --cor-de-texto:black;
     --cor-rodape-hover:blue;
-    --cor-link-hover:blue;
+    --cor-link-hover:rgb(0, 0, 255);
     --cor-texto-hover:blue;
     --background-secundario:rgb(228, 217, 217);
+    --background-branco:white; 
+    --botao-azul: rgb(19, 172, 227);
 
     
 }

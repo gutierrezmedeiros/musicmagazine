@@ -1,0 +1,98 @@
+.artista-lista {
+        display:flex;
+        justify-content: center; 
+        align-items: center;
+        padding:0 0 2em 0;
+        list-style: none;
+        
+}
+
+.artistas-destaque-mes {
+    margin-bottom: 4em;
+}
+.artistas-destaque-mes-titulo {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.artistas-destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.artistas-destaque-mes-img {
+    border:black solid 3px;
+    width: 20%;
+    margin-bottom: 2em;
+}
+
+
+     
+
+.artista-img {
+    border:black solid 3px;
+    width: 40%;
+    
+  
+}
+
+.artista-img {
+    cursor: pointer;
+    
+}
+
+.artista-lista-item {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 1em;   
+
+}
+
+.artista-titulo {
+    text-align:center;
+    
+}
+
+.texto-artista {
+    text-align:center;
+}
+
+
+.img-insta, 
+.img-spotify {
+    
+    width: 20px;
+  
+}
+
+.rede-social {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.redesocial-insta-link {
+    margin: 5px;
+}
+
+.artista-lista-materia-link:hover {
+    color:var(--cor-link-hover);
+    text-decoration-line:underline;
+
+}
+@media screen and (max-width:700px) {
+    .artista-lista {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0 0 2em 0;
+        list-style: none;
+        
+    }
+    
+
+}

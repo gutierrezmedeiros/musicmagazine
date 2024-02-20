@@ -1,8 +1,7 @@
 .artigos-recomendados {
     width:100vw;
-    height:120vh; 
-    
-  
+    height:110vh; 
+     
 }
 
 .artigos-recomendados-titulo {
@@ -14,9 +13,7 @@
     
 }
 
-.contener {
- 
-    
+.contener {  
     width:100vw;
     height:100vh;
     display:grid;
@@ -27,11 +24,6 @@
     align-content:center;
     align-items:center;
     justify-items: center;
-    
-
-
-   
-    
 
 }
 
@@ -41,17 +33,10 @@
     align-items: center;
     width:100%;
     height: 100%;
-    
     margin: 0 0.5rem 0 0.5rem;
-
-   
     border: 1px solid #ddd;
-
     border-radius: 5px;
    
-
-   
-    
 
 }
 .artigo-link {
@@ -63,8 +48,6 @@
     
 }
 
-
-
 .artigo-item-link{
     display: flex;
     font-size:5px;
@@ -75,18 +58,15 @@
 
 }
 
-
 .artigo-item-link:hover {
     text-decoration:underline;
     color:var(--cor-link-hover);
 
 }
 
-
-
 .artigo-item-img {
    
-    max-width: 100%;
+    max-width:100%; 
     height: 70%;
     display: block;
     margin-top: 10px;
@@ -115,7 +95,8 @@
 .mais-artigos {
     text-align: center;
     font-size: 10px;
-    padding: 1em;
+    padding-top:3em;
+   
     
 }
 @media screen and (min-width:700px) {
@@ -127,7 +108,7 @@
        
        
     }
- 
+
 .contener {
    
     width:100vw;
@@ -135,15 +116,12 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
-    gap:20px;
+    gap:10px;
     justify-content: center;
     align-content:center;
     align-items:center;
     justify-items: center;
-   
-    border-radius: 5px;
-    
-    
+    border-radius: 5px;    
 
 }
 
@@ -151,7 +129,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: 0 0.5rem 0 0.5rem;
     border: 1px solid #000000;
@@ -162,24 +140,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     text-align: center;
 
 }
 
 .artigo-item-link{
-   
     font-size:16px;
     align-items: center;
     
 
 }
 
-
-
 .artigo-item-img {
     margin:1em 0 0 0;
-    max-width:70%;
+    max-width:90%;
     height:auto;
 }
 
@@ -206,7 +180,17 @@
 .mais-artigos {
     text-align: center;
     font-size: 10px;
-    padding-top: 1em;
+    
+   
+    
+}
+
+.artigos-recomendados-titulo {
+    text-align:center;
+    padding:4px;
+    margin: 10px 0 10px 0;
+    background-color: var(--cor-secundaria);
+    color:var(--cor-primaria);
     
 }
 

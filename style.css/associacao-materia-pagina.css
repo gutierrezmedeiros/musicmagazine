@@ -1,0 +1,11 @@
+.associacoes-musicais {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.associacoes-musicais-link {
+    color: brown;
+    margin-right: 1em;
+}

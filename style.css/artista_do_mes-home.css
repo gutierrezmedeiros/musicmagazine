@@ -76,3 +76,12 @@
 
 
 }
+
+.todosartistas-titulo {
+    text-align: center;
+    margin: 1em;
+}
+
+.todosartistas-titulo:hover {
+    color:var( --cor-link-hover);
+}
