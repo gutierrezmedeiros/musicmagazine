@@ -26,6 +26,7 @@
     border:black solid 3px;
     width: 20%;
     margin-bottom: 2em;
+    
 }
 
 
@@ -34,6 +35,7 @@
 .artista-img {
     border:black solid 3px;
     width: 40%;
+    border-radius: 100%;
     
   
 }

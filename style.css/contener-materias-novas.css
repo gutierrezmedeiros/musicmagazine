@@ -47,7 +47,7 @@ h1 {
 
 .noticia h2 {
     font-size: 1.2em;
-    padding-bottom: 1em;
+    padding: 1em 1em;
     
 }
 
@@ -62,9 +62,18 @@ h1 {
   
 }
 
+.noticia img {
+    margin: auto;
+    max-width:400px;
+    width:300px;
+    height:300px;
+    border-radius: 5%;
+}
+
 
 
 @media screen and (min-width:700px) {
+
 
     .contener-materias-novas-titulo {
         text-align: center;
@@ -74,7 +83,20 @@ h1 {
         color:var(--cor-primaria);
     }
 
+
+
 }
+
+@media screen and (max-width:900px) {
+    .noticia img {
+        margin:0 auto;
+        max-width:200px;
+        width:150px;
+        height:150px;
+    }
+   
+    
+} 
 
 
 
